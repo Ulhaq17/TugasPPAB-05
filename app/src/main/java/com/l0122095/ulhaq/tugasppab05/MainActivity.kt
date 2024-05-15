@@ -1,10 +1,10 @@
 package com.l0122095.ulhaq.tugasppab05
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -32,15 +32,17 @@ class MainActivity : AppCompatActivity() {
         showRecyclerList()
     }
 
+    @SuppressLint("Recycle")
     private fun getListFilms() : ArrayList<Film> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataYear = resources.getStringArray(R.array.data_year)
         val dataImg = resources.obtainTypedArray(R.array.data_img)
         val dataDuration = resources.getStringArray(R.array.data_duration)
         val dataDesc = resources.getStringArray(R.array.data_description)
+        val dataLink = resources.getStringArray(R.array.data_link)
         val listHero = ArrayList<Film>()
         for (i in dataName.indices) {
-            val hero = Film(dataName[i], dataYear[i], dataImg.getResourceId(i, -1), dataDuration[i], dataDesc[i])
+            val hero = Film(dataName[i], dataYear[i], dataImg.getResourceId(i, -1), dataDuration[i], dataDesc[i], dataLink[i])
             listHero.add(hero)
         }
         return listHero
@@ -66,6 +68,7 @@ class MainActivity : AppCompatActivity() {
         profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMYEAR, film.year)
         profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMDURATION, film.duration)
         profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMDESC, film.desc)
+        profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMLINK, film.link)
         startActivity(profileIntent)
     }
 

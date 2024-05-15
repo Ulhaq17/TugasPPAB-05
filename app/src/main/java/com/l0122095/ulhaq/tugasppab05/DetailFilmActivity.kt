@@ -1,6 +1,9 @@
 package com.l0122095.ulhaq.tugasppab05
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -9,12 +12,15 @@ import androidx.core.view.WindowInsetsCompat
 
 class DetailFilmActivity : AppCompatActivity() {
 
+    private lateinit var btnTrailer : Button
+
     companion object{
         const val EXTRA_FILMNAME = "extra_filmname"
         const val EXTRA_FILMIMG = "extra_filmimg"
         const val EXTRA_FILMYEAR = "extra_filmyear"
         const val EXTRA_FILMDURATION = "extra_filmduration"
         const val EXTRA_FILMDESC = "extra_filmdesc"
+        const val EXTRA_FILMLINK = "extra_filmlink"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,5 +46,18 @@ class DetailFilmActivity : AppCompatActivity() {
         datafilmDuration.text = filmDuration
         datafilmDesc.text = filmDesc
         datafilmImg.setImageResource(filmImg)
+
+        btnTrailer = findViewById(R.id.button)
+        btnTrailer.setOnClickListener {
+            val filmLink = intent.getStringExtra(EXTRA_FILMLINK)
+            trailerYouTubeLink(filmLink)
+        }
+    }
+
+    private fun trailerYouTubeLink(youTubeLink: String?) {
+        youTubeLink?.let {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it))
+            startActivity(intent)
+        }
     }
 }

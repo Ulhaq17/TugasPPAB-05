@@ -40,10 +40,10 @@
         android:text="@string/trailer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toEndOf="@+id/detailimageView"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="@+id/detailtextView2"
         app:layout_constraintTop_toBottomOf="@+id/detailtextView"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.197" />
 
     <TextView
         android:id="@+id/detailtextView2"
