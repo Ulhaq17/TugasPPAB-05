@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Film App</string>
+    <string name="film_name">Nama Film</string>
+    <string name="description">Tahun Rilis</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="this_is_picture">This is Picture</string>
+    <string name="trailer">Watch Trailer</string>
+    <string name="durasiWaktu">Duration: </string>
+
+    <string-array name="data_name">
+        <item>Ironman 1</item>
+        <item>Ironman 2</item>
+        <item>Ironman 3</item>
+        <item>The Avengers</item>
+        <item>Avengers: Age of Ultron</item>
+        <item>Avengers: Infinity War</item>
+        <item>Avengers: Endgame</item>
+        <item>The Hobbit: An Unexpected Journey</item>
+        <item>The Hobbit: The Desolation of Smaug</item>
+        <item>The Hobbit: The Battle of the Five Armies</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item><![CDATA[2000]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[]]></item>
+    </string-array>
+
+    <integer-array name="data_img">
+        <item>@drawable/ironman_1</item>
+        <item>@drawable/ironman_2</item>
+        <item>@drawable/ironman_3</item>
+        <item>@drawable/theavengers_1</item>
+        <item>@drawable/theavengers_2</item>
+        <item>@drawable/theavengers_3</item>
+        <item>@drawable/theavengers_4</item>
+        <item>@drawable/thehobbit_1</item>
+        <item>@drawable/thehobbit_2</item>
+        <item>@drawable/thehobbit_3</item>
+    </integer-array>
+
+</resources>
