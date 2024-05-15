@@ -11,7 +11,10 @@ class DetailFilmActivity : AppCompatActivity() {
 
     companion object{
         const val EXTRA_FILMNAME = "extra_filmname"
+        const val EXTRA_FILMIMG = "extra_filmimg"
         const val EXTRA_FILMYEAR = "extra_filmyear"
+        const val EXTRA_FILMDURATION = "extra_filmduration"
+        const val EXTRA_FILMDESC = "extra_filmdesc"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,9 +27,18 @@ class DetailFilmActivity : AppCompatActivity() {
         }
 
         val datafilmName : TextView = findViewById(R.id.detailtextView)
+        val datafilmImg : ImageView = findViewById(R.id.detailimageView)
+        val datafilmDuration : TextView = findViewById(R.id.detailtextView2)
+        val datafilmDesc: TextView = findViewById(R.id.detailtextView4)
 
         val filmName = intent.getStringExtra(EXTRA_FILMNAME)
+        val filmImg = intent.getIntExtra(EXTRA_FILMIMG, 0)
+        val filmDuration = intent.getStringExtra(EXTRA_FILMDURATION)
+        val filmDesc = intent.getStringExtra(EXTRA_FILMDESC)
 
         datafilmName.text = filmName
+        datafilmDuration.text = filmDuration
+        datafilmDesc.text = filmDesc
+        datafilmImg.setImageResource(filmImg)
     }
 }

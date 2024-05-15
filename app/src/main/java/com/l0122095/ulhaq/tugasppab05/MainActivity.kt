@@ -34,11 +34,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun getListFilms() : ArrayList<Film> {
         val dataName = resources.getStringArray(R.array.data_name)
-        val dataDesc = resources.getStringArray(R.array.data_desc)
+        val dataYear = resources.getStringArray(R.array.data_year)
         val dataImg = resources.obtainTypedArray(R.array.data_img)
+        val dataDuration = resources.getStringArray(R.array.data_duration)
+        val dataDesc = resources.getStringArray(R.array.data_description)
         val listHero = ArrayList<Film>()
         for (i in dataName.indices) {
-            val hero = Film(dataName[i], dataDesc[i], dataImg.getResourceId(i, -1))
+            val hero = Film(dataName[i], dataYear[i], dataImg.getResourceId(i, -1), dataDuration[i], dataDesc[i])
             listHero.add(hero)
         }
         return listHero
@@ -58,10 +60,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedFilm(film: Film) {
-        Toast.makeText(this, film.name + " is selected", Toast.LENGTH_SHORT).show()
         val profileIntent = Intent(this@MainActivity, DetailFilmActivity::class.java)
         profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMNAME, film.name)
+        profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMIMG, film.img)
         profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMYEAR, film.year)
+        profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMDURATION, film.duration)
+        profileIntent.putExtra(DetailFilmActivity.EXTRA_FILMDESC, film.desc)
         startActivity(profileIntent)
     }
 

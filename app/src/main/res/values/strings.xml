@@ -7,6 +7,9 @@
     <string name="this_is_picture">This is Picture</string>
     <string name="trailer">Watch Trailer</string>
     <string name="durasiWaktu">Duration: </string>
+    <string name="durasi">durasi</string>
+    <string name="sinopsis">Sinopsis:</string>
+    <string name="deskripsi">TextView</string>
 
     <string-array name="data_name">
         <item>Ironman 1</item>
@@ -21,17 +24,43 @@
         <item>The Hobbit: The Battle of the Five Armies</item>
     </string-array>
 
-    <string-array name="data_desc">
-        <item><![CDATA[2000]]></item>
-        <item><![CDATA[]]></item>
-        <item><![CDATA[]]></item>
-        <item><![CDATA[]]></item>
-        <item><![CDATA[]]></item>
-        <item><![CDATA[]]></item>
-        <item><![CDATA[]]></item>
-        <item><![CDATA[]]></item>
-        <item><![CDATA[]]></item>
-        <item><![CDATA[]]></item>
+    <string-array name="data_year">
+        <item><![CDATA[2008]]></item>
+        <item><![CDATA[2010]]></item>
+        <item><![CDATA[2013]]></item>
+        <item><![CDATA[2012]]></item>
+        <item><![CDATA[2015]]></item>
+        <item><![CDATA[2018]]></item>
+        <item><![CDATA[2019]]></item>
+        <item><![CDATA[2012]]></item>
+        <item><![CDATA[2013]]></item>
+        <item><![CDATA[2014]]></item>
+    </string-array>
+
+    <string-array name="data_duration">
+        <item><![CDATA[Duration: 126 Minutes]]></item>
+        <item><![CDATA[Duration: 125 Minutes]]></item>
+        <item><![CDATA[Duration: 130 Minutes]]></item>
+        <item><![CDATA[Duration: 143 Minutes]]></item>
+        <item><![CDATA[Duration: 141 Minutes]]></item>
+        <item><![CDATA[Duration: 149 Minutes]]></item>
+        <item><![CDATA[Duration: 181 Minutes]]></item>
+        <item><![CDATA[Duration: 169 Minutes]]></item>
+        <item><![CDATA[Duration: 161 Minutes]]></item>
+        <item><![CDATA[Duration: 144 Minutes]]></item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item><![CDATA[Billionaire, genius, playboy, philanthropist? All this and more sums up Tony Stark. After a weapons presentation in Iraq, Stark gets himself captured which also results in him having a chest filled with shrapnel. Needing to escape, he miniaturizes it and dons a suit of armor. This results in the birth of the Armored Avenger Iron Man. Once returned safely, Stark works to perfect his design and uses it to protect all mankind. This activity catches the eye of a mysterious organization known as SHIELD. On the other hand, the chairman of Stark Industries discovers this and has plans of his own for Tonys work.]]></item>
+        <item><![CDATA[Six months have passed since Tony Stark has defeated his former friend, Obidah Stane aka the Iron Monger and he has publicly revealed his identity to the world. Tony is facing many issues with his life, such as using palladium for his arc reactor which is causing serious problems towards his health and a rival inventor named Justin Hammer wants to put Stark Industries out of business so that he can become the top inventor. Tonys recklessness is reaching its breaking point for him when his friendship with Rhodey at risk and his love for Pepper in serious jeopardy. However, Tony is soon faced with another issue when Ivan Vanko aka Whiplash begins to seek revenge on him for getting his late father, Anton dismissed from Stark Industries by Howard many years ago. With the stakes held high for Tony, he must form new alliances with Natasha Romanoff and Nick Fury, who are both agents of S.H.I.E.L.D. in order to defeat Hammer and Vanko once and for all.]]></item>
+        <item><![CDATA[In Malibu California, Tony Stark has insomnia and over 72 hours he develops the new prototype MK42 of the Iron Man armature. He also recalls events in 1999, in Bern, Switzerland, when he had one night stand with the genetic scientist Maya Hansen that was researching a regenerative process and made fun of his fan Aldrich Killian on the New Year eve. There are explosions in Los Angeles and the terrorist Mandarin assumes the attempts broadcasting through television. When Tony bodyguard and friend Happy Hogan is seriously wounded in an explosion, Tony Stark challenges Mandarin and gives his address to him. However, three helicopters attack his mansion and he loses everything but his prototype, and he awakes in the Tennessee. Tony tries to make work the defective prototype and soon he discovers that the event from 1999 is connected to the present terrorist attacks.]]></item>
+        <item><![CDATA[S.H.I.E.L.D. has located the mysterious Tesseract device and the Army super soldier Captain America. The Tesseract is actually a gateway to an entirely new world called Asgard. A mysterious being known as Loki arrives on earth and immediately assumes that he can rule all human beings. But that irks S.H.I.E.L.D. director Nick Fury the wrong way. As Loki escapes with the Tesseract, Nick Fury believes this is an act of war against Earth. His only hope is to assemble an actual team of super heroes. Dr. Bruce Banner, who turns into an enormous green rage monster known as the Hulk. Tony Stark and his venerable Iron Man armor. Captain America, the Stark Enterprises created super soldier. Thor, the god of thunder, protector of Earth and his home planet of Asgard, and Loki brother. Master assassins Hawkeye and Natasha Romanoff. Together they will become a team to take on an attack that will call them to become the greatest of all time.]]></item>
+        <item><![CDATA[After a successful raid on a HYDRA base, Tony Stark and Bruce Banner create an Artificial Intelligence called Ultron, a peacekeeping protocol designed to help the Avengers protect the world from their enemies. But things go wrong when Ultron sees the human race as a threat and sets out to destroy it along with the Avengers. Now the Avengers, Iron Man, Thor, Captain America, the Hulk, Black Widow and Hawkeye, must reassemble to stop Ultron from causing mass destruction. Aside from this, the Avengers also must take on the powerful twins Quicksilver and Scarlet Witch as well as the new entity called Vision. Also, the Avengers find that things may never be the same again after discovering a power beyond their comprehension.]]></item>
+        <item><![CDATA[As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment, the fate of Earth and existence has never been more uncertain.]]></item>
+        <item><![CDATA[After half of all life is snapped away by Thanos, the Avengers are left scattered and divided. Now with a way to reverse the damage, the Avengers and their allies must assemble once more and learn to put differences aside in order to work together and set things right. Along the way, the Avengers realize that sacrifices must be made as they prepare for the ultimate final showdown with Thanos, which will result in the heroes fighting the biggest battle they have ever faced.]]></item>
+        <item><![CDATA[Bilbo Baggins is swept into a quest to reclaim the lost Dwarf Kingdom of Erebor from the fearsome dragon Smaug. Approached out of the blue by the wizard Gandalf the Grey, Bilbo finds himself joining a company of thirteen dwarves led by the legendary warrior, Thorin Oakenshield. Their journey will take them into the Wild; through treacherous lands swarming with Goblins and Orcs, deadly Wargs and Giant Spiders, Shapeshifters and Sorcerers. Although their goal lies to the East and the wastelands of the Lonely Mountain first they must escape the goblin tunnels, where Bilbo meets the creature that will change his life forever Gollum. Here, alone with Gollum, on the shores of an underground lake, the unassuming Bilbo Baggins not only discovers depths of guile and courage that surprise even him, he also gains possession of Gollums precious ring that holds unexpected and useful qualities A simple, gold ring that is tied to the fate of all Middle-earth in ways Bilbo cannot begin to know.]]></item>
+        <item><![CDATA[As Gandalf the Grey, Bilbo Baggins and Dwarf King Thorin II Oakenshield long and perilous journey to the heart of the Lonely Mountain continues, a relentless pursuit by the vicious orc, Azog, will inevitably lead the brave fellowship into the dark forests of Mirkwood. Without the sage wizard guidance, both hobbit and dwarves must keep on venturing into danger undeterred, concentrating solely on their primary mission to retrieve the stolen Arkenstone from Smaug. But atop a mountain of Erebor pilfered gold, the omnipotent drake is waiting silently, ready to put up a fight for his beloved treasure. Who dares to challenge him?]]></item>
+        <item><![CDATA[As Smaug breathes fire and destruction onto Laketown, another sort of dragon-danger threatens Thorin Oakenshield - the gold madness that seized his Grandsire Thror, King Under the Mountain of old. The people of Laketown flee to the ruins of Dale, in the shadow of the Lonely Mountain, only to be greeted by an army of Elves led by Thranduil, marching there too. Asking Thorin for their own fair share of the gold, Men and Elves are answered by Dwarvish defiance. Thorin seems overmatched until an army led by Dwarf-Lord Dain, Thorin kinsman, approaches from the Iron Hills to the northeast. Meantime, Gandalf, imprisoned in the ruins of Dol Guldûr, seems about to be finished off by the Nine Ring Wraiths, led by the deadliest of their lot, Witch King of the ancient, evil realm of Angmar. And what on Middle Earth will happen when an enormous army of Orcs and Wargs suddenly pours out of tunnels under the earth, surrounding and threatening doom to all the other armies gathered at the Lonely Mountain? Orcs and their Fell Beasts, Elves, Dwarves, Men - Five Armies join battle, and the result will determine the fate of the North in the gathering War of the Ring.]]></item>
     </string-array>
 
     <integer-array name="data_img">
