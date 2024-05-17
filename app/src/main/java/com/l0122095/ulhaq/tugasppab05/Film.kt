@@ -6,7 +6,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class Film (
     val name: String,
-    val year: String,
+    val year: String,   
     val img: Int,
     val duration: String,
     val desc: String,
